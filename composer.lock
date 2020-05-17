@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dac855b423fedea54079b9939a49cdb8",
+    "content-hash": "7ab7343b1248816272d05d0107ffb3aa",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -191,6 +191,62 @@
                 }
             ],
             "time": "2020-04-14T16:26:30+00:00"
+        },
+        {
+            "name": "cnvs/studio",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cnvs/studio.git",
+                "reference": "b44ec7b10798dfb7955df37897efb25d7e718c52"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cnvs/studio/zipball/b44ec7b10798dfb7955df37897efb25d7e718c52",
+                "reference": "b44ec7b10798dfb7955df37897efb25d7e718c52",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "ext-json": "*",
+                "laravel/framework": "^6.0|^7.0",
+                "php": "^7.2"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Studio\\StudioServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Studio\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Todd Austin",
+                    "email": "austin.todd.j@gmail.com"
+                }
+            ],
+            "description": "Medium-inspired frontend for Canvas.",
+            "keywords": [
+                "canvas",
+                "laravel",
+                "vue"
+            ],
+            "time": "2020-05-15T16:39:11+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
