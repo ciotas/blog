@@ -28,6 +28,7 @@ class BaseController extends Controller
             'path' => config('studio.path'),
             'identifier' => config('studio.identifier'),
             'timezone' => config('app.timezone'),
+            'studioPath' => config('studio.path'),
             'user' => $user,
         ];
     }
