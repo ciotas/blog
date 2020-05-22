@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::post('api/ding', 'Api/DingController@pushMessage');
+Route::post('ding', 'Api\DingController@pushMessage');
