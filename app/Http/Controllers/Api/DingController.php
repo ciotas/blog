@@ -13,7 +13,7 @@ class DingController extends Controller
         $symbol = $request->symbol;
         $api = 'https://oapi.dingtalk.com/robot/send?access_token=9f809246656a6a8af7fff296986960a92fd0ace31ebef24ff44e467707a8be3d';
         $client = new Client();
-        $response = $client->request('POST', $api, [
+        return $client->request('POST', $api, [
             'form_params' => [
                 'msgtype' => 'text',
                 'text' => [
